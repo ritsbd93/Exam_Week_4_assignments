@@ -18,6 +18,9 @@
 
     <!-- Sorting Links -->
     <div>
+        <a href="{{ route('contacts.create') }}">Create New Contact</a>
+    </div>
+    <div>
         <a href="{{ route('contacts.index', ['sort' => 'name']) }}">Sort by Name</a>
         <a href="{{ route('contacts.index', ['sort' => 'created_at']) }}">Sort by Date</a>
     </div>
